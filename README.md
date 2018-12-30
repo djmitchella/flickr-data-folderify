@@ -12,9 +12,12 @@ data-download-1.zip
 
 data-download-10.zip -- these data-download-...zip files contain the images.
 
-Unzip all the files into one folder. You will have a bunch of json files and all the images from your flickr account.
+Unzip all the files into one folder. You will have a bunch of json files and all the images from your flickr account, but the filenames for those images will have flickr's extra image ID in there.
+
 Build main.go.
-run '[whatever go built] albums.json'
+
+run `[whatever go built] albums.json` in the folder you extracted to.
+
 It will create a new folder for each album, and move the images into the folders for each album, and all the images that aren't in an album into a folder called "No Album".
 
 WARNING:
