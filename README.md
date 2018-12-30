@@ -3,11 +3,14 @@ Processes the files flickr gives you when you do "download all my data", and cre
 
 Usage: 
 Flickr will give you a bunch of zip files called something like
-123123213123123-12bede123.zip - this contains the metadata
+
+123123213123123-12bede123.zip -- this contains the metadata
+
 data-download-1.zip
+
 ...
-data-download-10.zip 
-where these contain the images.
+
+data-download-10.zip -- these data-download-...zip files contain the images.
 
 Unzip all the files into one folder. You will have a bunch of json files and all the images from your flickr account.
 Build main.go.
