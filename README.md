@@ -10,10 +10,9 @@ data-download-10.zip
 where these contain the images.
 
 Unzip all the files into one folder. You will have a bunch of json files and all the images from your flickr account.
-Build the app.
-run 'flickr-data-folderify albums.json'
+Build main.go.
+run '[whatever go built] albums.json'
 It will create a new folder for each album, and move the images into the folders for each album, and all the images that aren't in an album into a folder called "No Album".
 
 WARNING:
 It tries to restore the original filename for images that it moves into per-album folders, but if you had two images with the same original filename, behavior is unpredictable. (I don't have any data like that so haven't tested it myself).
-
